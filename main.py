@@ -1,8 +1,10 @@
 import streamlit as st
 import math
 
-st.write("""
-# Ini adalah Aplikasi Sederhana Penghitungan Jumlah Sampling Dalam Verifikasi Partai Politik Pemilu Tahun 2024""")
+st.set_page_config(page_title="Jumlah Sampling Partai Politik", page_icon="📊")
+
+st.markdown("# Jumlah Sampling Dalam Verifikasi Faktual Partai Politik")
+st.sidebar.header("Jumlah Sampling Dalam Verifikasi Faktual Partai Politik")
 
 chikuadrat = 3.84
 populasi = st.number_input("Masukan Populasi",format="%.0f")
